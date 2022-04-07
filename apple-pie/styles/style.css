@@ -1,7 +1,9 @@
 html,
 body{  
    display: grid;    
-   text-align: center;   
+   text-align: center;  
+   margin-left: o auto;
+  
    font-family: 'Questrial', sans-serif;
 }
 .header{
@@ -20,6 +22,9 @@ main>article>.parraf{
     color:black;
     text-align: start;
     font-size: 19px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top:15%;
 }
 #title{
     font-size:60px;
@@ -40,8 +45,14 @@ a,h1{
 main{
     position: relative;
     top:70px;    
-    width:70%;
-    padding: 15%;    
+   
+      
+}
+section{
+      display: grid;
+   
+    place-content: center;
+
 }
 .img{
     width: 300px;
@@ -68,17 +79,23 @@ li{
 ul em{
     font-weight: 700;
 }
-pre{
-    text-align: start;
+p{
+   
+    text-align:start;
     font-family: 'Questrial', sans-serif; 
-    margin-left: -45px;
-    font-size: 18px;      
+    width: 60%;
+    height: 20%;
+  
+    font-size: 18px;       
 }
-.section2{
-    display: grid;
-    justify-content: start;
-    text-align: start;
+#section2{
+    
+     display: flex;
+    justify-content: center;
+    place-content: center;
 }
-.section2 h3{
-  margin-left: 10px;  
+
+#img2{  
+    margin: 10px;
 }
+
