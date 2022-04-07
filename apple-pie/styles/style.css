@@ -1,0 +1,84 @@
+html,
+body{  
+   display: grid;    
+   text-align: center;   
+   font-family: 'Questrial', sans-serif;
+}
+.header{
+    width: 80%;
+    height:150%;    
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-content: center;    
+    margin: 5% auto;   
+    box-shadow:0px 0px 10px black; 
+    border-radius: 10px;
+}
+main>article>.parraf{
+    color:black;
+    text-align: start;
+    font-size: 19px;
+}
+#title{
+    font-size:60px;
+    color:#5e3bbd;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    transition: 0.5s;
+    cursor: pointer;   
+}
+a,h1{
+    text-decoration: none;
+}
+#title:hover{
+      text-shadow: 0px 0px 10px rgb(255, 238, 212);
+      transition: 0.5s;      
+}
+main{
+    position: relative;
+    top:70px;    
+    width:70%;
+    padding: 15%;    
+}
+.img{
+    width: 300px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 5px;
+}
+ul{
+    text-align: start;  
+    font-weight: 700;
+    background-color: rgb(239, 235, 243);
+    width: 300px;  
+    padding: 10px;
+    border-radius: 10px;    
+}
+li{
+    list-style-type: "-";
+    font-weight: 10;
+    margin-top: 5%;
+    margin-left: 20px;   
+}
+.li + li{
+    color:red;
+}
+ul em{
+    font-weight: 700;
+}
+pre{
+    text-align: start;
+    font-family: 'Questrial', sans-serif; 
+    margin-left: -45px;
+    font-size: 18px;      
+}
+.section2{
+    display: grid;
+    justify-content: start;
+    text-align: start;
+}
+.section2 h3{
+  margin-left: 10px;  
+}
