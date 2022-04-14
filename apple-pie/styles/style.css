@@ -1,101 +1,47 @@
 html,
-body{  
-   display: grid;    
-   text-align: center;  
-   margin-left: o auto;
-  
-   font-family: 'Questrial', sans-serif;
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI';
 }
-.header{
-    width: 80%;
-    height:150%;    
-    background-image: url("../images/apple-pie.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
+*{
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    width: 100%;
+    height: 300px;
     display: grid;
-    place-content: center;    
-    margin: 5% auto;   
-    box-shadow:0px 0px 10px black; 
-    border-radius: 10px;
-}
-main>article>.parraf{
-    color:black;
-    text-align: start;
-    font-size: 19px;
-    width: 80%;
-    margin-left: 10%;
-    margin-top:15%;
-}
-#title{
-    font-size:60px;
-    color:#5e3bbd;
-    font-family: 'Pacifico', cursive;
-    letter-spacing: 2px;
-    text-shadow: 0px 0px 10px rgb(0, 0, 0);
-    transition: 0.5s;
-    cursor: pointer;   
-}
-a,h1{
-    text-decoration: none;
-}
-#title:hover{
-      text-shadow: 0px 0px 10px rgb(255, 238, 212);
-      transition: 0.5s;      
-}
-main{
-    position: relative;
-    top:70px;    
-   
-      
-}
-section{
-      display: grid;
-   
     place-content: center;
-
-}
-.img{
-    width: 300px;
-    border: 1px solid rgb(218, 218, 218);
-    border-radius: 5px;
-}
-ul{
-    text-align: start;  
-    font-weight: 700;
-    background-color: rgb(239, 235, 243);
-    width: 300px;  
-    padding: 10px;
-    border-radius: 10px;    
+    background-image: url(../images/apple-pie.jpg);
+    color:rgb(243, 243, 243);
+    box-shadow: 0 0 10px black;    
+    background-size:cover;  
+    background-repeat: no-repeat;
+    font-size: 1.5rem;
 }
 li{
-    list-style-type: "-";
-    font-weight: 10;
-    margin-top: 5%;
-    margin-left: 20px;   
+    list-style-type: " - ";
 }
-.li + li{
-    color:red;
+section,
+article,
+footer,
+hr
+{
+    width: 80%;
+    margin-top: 10px;
 }
-ul em{
-    font-weight: 700;
-}
-p{
-   
-    text-align:start;
-    font-family: 'Questrial', sans-serif; 
-    width: 60%;
-    height: 20%;
-  
-    font-size: 18px;       
-}
-#section2{
-    
-     display: flex;
-    justify-content: center;
+img{
+    display: grid;
     place-content: center;
+    width: 60%;
 }
-
-#img2{  
-    margin: 10px;
+ul,
+p{
+    padding: 0;
+    margin-left: 30px;
 }
-
+img{
+    border: 1px solid rgb(211, 211, 211);
+}
